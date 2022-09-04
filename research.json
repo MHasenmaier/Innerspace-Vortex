@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Sicherheitstechnik",
+        "tooltipp": "Ermöglicht Verteidigungsanlagen",
+        "maxLvl": 5,
+        "requirements": "Forschungsgebäude",
+        "requireResearchLvl": 1,
+        "enables": "Verteidigungsanlagen",
+        "improves": null
+    },
+
+    {
+        "name": "Ressourceneffizienz",
+        "tooltipp": "Verbessert Ressourcengebäude",
+        "maxLvl": 30,
+        "requirements": 
+        [
+            "Forschungsgebäude",
+            "Hauptgebäude",
+            "Eisenmine"
+        ],
+        "requireResearchLvl": 1,
+        "enables": "Deuteriumdestillator",
+        "improves": "Ressourcengebäude"
+    },
+
+    {
+        "name": "Technik",
+        "tooltipp": "Verbessert das Forschen",
+        "maxLvl": 20,
+        "requirements": 
+        [
+            "Hauptgebäude",
+            "Forschungsgebäude"
+        ],
+        "requireResearchLvl": 3,
+        "enables": "Raumschifftechnik",
+        "improves": "Ressourcengebäude"
+    },
+
+    {
+        "name": "Raumschifftechnik",
+        "tooltipp": "Ermöglicht Dock und Verbessert Schiffe",
+        "maxLvl": 20,
+        "requirements": "Technik",
+        "requireResearchLvl": 5,
+        "enables": "Dock",
+        "improves": 
+        [
+            "Möwe",
+            "Albatros",
+            "Delphin",
+            "Barrakuda",
+            "Orca",
+            "Oktopus"
+        ]
+    },
+
+    {
+        "name": "Radartechnik",
+        "tooltipp": "Ermöglicht Radar",
+        "maxLvl": 10,
+        "requirements":
+        [
+            "Sicherheitstechnik",
+            "Technik",
+            "Raumschifftechnik",
+            "Hauptgebäude"
+        ],
+        "requireResearchLvl": 5,
+        "enables": "Radar",
+        "improves": null
+    },
+
+    {
+        "name": "Erweiterte Ressourcenproduktion",
+        "tooltipp": "weitere Ressourcen können abgebaut werden",
+        "maxLvl": 20,
+        "requirements":
+        {
+            "name": "Ressourceneffizienz",
+            "requirementsLvl": 10
+        },
+        "enables":
+        [
+            "Palladiummine",
+            "Tritiumreaktor"
+        ],
+        "improves": 
+        [
+            "Palladiummine",
+            "Tritiumreaktor"
+        ]
+    },
+
+    {
+        "name": "Experimentelle Ressourcenproduktion",
+        "tooltipp": "Dunkle Materie verfügbar",
+        "maxLvl": 10,
+        "requirements":
+        {
+            "name": "Erweiterte Ressourcenproduktion",
+            "requirementsLvl": 20
+        },
+        "enables": "Dunkle Materie Generator",
+        "improves": null
+    },
+
+    {
+        "name": "Kolonialtechnik",
+        "tooltipp": "Ermöglicht Kolonien",
+        "maxLvl": 10,
+        "requirements": 
+        [
+            {
+                "name": "Experimentelle Ressourcenproduktion",
+                "requirementsLvl": 10
+            },
+
+            {
+                "name": "Raumschifftechnik",
+                "requirementsLvl": 20
+            },
+
+            {
+                "name": "Technik",
+                "requirementsLvl": 20
+            }
+        ],
+        "enables": "Kolonialisierungsschiff",
+        "improves": null
+    }
+]
