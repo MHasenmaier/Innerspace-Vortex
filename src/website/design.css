@@ -1,0 +1,137 @@
+.mainClass {
+    display: grid;
+    min-height: 95vh;
+    grid-template-areas: 'header''content''footer';
+    grid-template-rows: auto 75% auto;
+    background-color: yellowgreen;
+}
+
+
+/*header*/
+
+.headerClass {
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    grid-template-areas: 'headerLeft headerRessourcen headerRight';
+    grid-area: header;
+    background-color: lightblue;
+}
+
+.headerRightClass {
+    grid-area: headerRight;
+    background-color: lime;
+}
+
+.menu {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 1.5rem);
+    grid-area: menu;
+    background-color: red;
+}
+
+.headerLeftClass {
+    grid-area: headerLeft;
+    background-color: aqua;
+}
+
+
+/*content*/
+
+.contentClass {
+    display: grid;
+    grid-template-areas: 'menu gebaudeContent';
+    grid-template-columns: 15% 85%;
+    grid-area: content;
+    background-color: green;
+}
+
+
+/*menu*/
+
+.headerRessourcenClass {
+    display: grid;
+    grid-template-areas: 'ressourcenBox';
+    grid-template-columns: repeat(auto-fill, auto);
+    grid-area: headerRessourcen;
+    background-color: azure;
+}
+
+.ressourcenBoxClass {
+    display: grid;
+    grid-template-areas: 'ressourcenName ressourcenStorage';
+    grid-template-columns: 80% 20%;
+    grid-area: ressourcenBox;
+    background-color: aqua;
+}
+
+.ressourcenNameClass {
+    grid-area: ressourcenName;
+    background-color: blueviolet;
+}
+
+.ressourcenStorageClass {
+    grid-area: ressourcenStorage;
+    background-color: firebrick;
+}
+
+
+/*gebaudeContent*/
+
+.gebaudeContentClass {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 2rem);
+    grid-area: gebaudeContent;
+    background-color: grey;
+}
+
+.gebaudeContentBoxClass {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: silver;
+}
+
+.gebaudeContentElementClass {
+    display: flex;
+    background-color: violet;
+}
+
+
+/*footer*/
+
+.footerClass {
+    display: grid;
+    grid-area: footer;
+    background-color: orange;
+}
+
+
+/* *** Button *** */
+
+.menuButton {
+    border-radius: 0.2em;
+    transition-duration: 0.2s;
+    margin: 0.05em;
+}
+
+.menuButton:hover {
+    background-color: blue;
+    color: #fff;
+    box-shadow: 0 0 1.2em black;
+}
+
+.upgradeButton {
+    border-radius: 0.2em;
+    transition-duration: 0.2s;
+}
+
+.upgradeButton:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 1.2em black;
+}
+
+.upgradeButton:active {
+    background-color: black;
+    color: lightblue;
+    box-shadow: 0 0 1.2em red;
+}

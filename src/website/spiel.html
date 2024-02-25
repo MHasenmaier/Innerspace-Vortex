@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Raouls Browsergame</title>
+</head>
+
+<body class="mainClass" onload="gameStart()">
+    <div class="headerClass">
+        <div class="headerLeftClass" id="uhrzeitID">
+
+        </div>
+        <div class="headerTitelClass">
+            Hier könnte Ihr Titel stehen
+        </div>
+        <div class="headerRightClass">
+            Hier kommt ein Burgermenü hin
+        </div>
+    </div>
+
+    <div class="contentClass">
+        <div class="ressourcenClass">
+            <div class="ressourcenName">Money</div>
+            <div id="moneyStorage" class="ressourcenStorage">0</div>
+
+        </div>
+
+        <div class="gameScreenClass">
+            <div class="gameScreenBoxClass">
+                <div class="gameScreenElementClass">
+                    Gebäude
+                </div>
+                <div class="gameScreenElementClass">
+                    Ausbaustufe
+                </div>
+            </div>
+
+            <div class="gameScreenBoxClass">
+                <div class="gameScreenElementClass">
+                    Hauptquartier
+                </div>
+                <div class="gameScreenElementClass">
+                    <button class="upgradeButton" onclick="buttonIncrementValue(this.id)" id="upgradeHQButton">0</button>
+                </div>
+            </div>
+
+            <div class="gameScreenBoxClass">
+                <div class="gameScreenElementClass">
+                    Forschungszentrum
+                </div>
+                <div class="gameScreenElementClass">
+                    <button class="upgradeButton" id="upgradeResearchButton" onclick="buttonIncrementValue(this.id)">0</button>
+                </div>
+            </div>
+
+            <div class="gameScreenBoxClass">
+                <div class="gameScreenElementClass">
+                    Baracken
+                </div>
+                <div class="gameScreenElementClass">
+                    <button class="upgradeButton" id="upgradeBarracksButton" onclick="buttonIncrementValue(this.id)">0</button>
+                </div>
+            </div>
+
+            <div class="gameScreenBoxClass">
+                <div class="gameScreenElementClass">
+                    MoneyMoneyMoney <span id="costMoney"></span>
+                </div>
+                <div class="gameScreenElementClass">
+                    <button class="upgradeButton" id="upgradeMoneyButton" onclick="buttonIncrementValue(this.id)">0</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footerClass">
+        footer
+    </div>
+</body>
+
+</html>
