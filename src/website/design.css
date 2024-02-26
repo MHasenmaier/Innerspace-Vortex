@@ -3,7 +3,7 @@
     min-height: 95vh;
     grid-template-areas: 'header''content''footer';
     grid-template-rows: auto 75% auto;
-    background-color: yellowgreen;
+    background-color: rgb(205, 179, 50);
 }
 
 
