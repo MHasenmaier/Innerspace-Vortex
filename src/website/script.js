@@ -10,7 +10,6 @@
  */
 /////////////
 
-
 /////////////
 /** Class **/
 /////////////
@@ -24,6 +23,7 @@ class Element {
 
 class Army extends Element {
     att;
+    def;
     hp;
     spd;
 }
@@ -50,10 +50,11 @@ hqBuilding.feature = 'building';
 const researchBuilding = new Building();
 researchBuilding.name = 'Forschungsgebäude';
 researchBuilding.costMultiplier = 104;
+researchBuilding.costFix = 37;
 researchBuilding.cost = [141, 245, 349, 453, 557, 661, 765, 869, 973, 1077];
 researchBuilding.scoreValue = researchBuilding.cost;
 researchBuilding.upgradeLevel = 0;
-researchBuilding.defenseScore = researchBuilding.cost;
+researchBuilding.defenseScore = researchBuilding.costMultiplier;
 researchBuilding.feature = 'research';
 
 const barracks = new Building();
@@ -64,7 +65,7 @@ const barracks = new Building();
 /////////////////
 
 function gameStart() {
-    startTime();
+    //startTime();
 
     document.getElementById('costMoney').innerHTML = costMultiplierMoney(document.getElementById('upgradeMoneyButton').innerHTML);
 
