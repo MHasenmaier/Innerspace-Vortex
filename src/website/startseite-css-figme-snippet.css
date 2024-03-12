@@ -17,23 +17,13 @@ top: 143px;
 
 
 
-/* box */
+/* cahtbox-background */
 
 position: absolute;
-width: 317px;
-height: 742px;
-left: 1123px;
-top: 143px;
-
-
-
-/* Rectangle 2 */
-
-position: absolute;
-left: 0%;
+left: 77.99%;
 right: 0%;
-top: 0%;
-bottom: 0%;
+top: 13.96%;
+bottom: 13.57%;
 
 
 
@@ -87,7 +77,7 @@ top: 57px;
 
 
 
-/* Ellipse 4 */
+/* support-ellipse */
 
 box-sizing: border-box;
 
@@ -128,7 +118,7 @@ top: 14px;
 
 
 
-/* Ellipse 4 */
+/* message-ellispe */
 
 box-sizing: border-box;
 
@@ -160,7 +150,17 @@ line-height: 61px;
 border: 3px solid rgba(0, 0, 0, 0.85);
 
 
-/* topMiddleBox */
+/* topMiddleWindow-box */
+
+position: absolute;
+width: 1132px;
+height: 143px;
+left: 149px;
+top: 0px;
+
+
+
+/* topMiddleWindow-background */
 
 position: absolute;
 width: 1132px;
@@ -173,20 +173,10 @@ top: 0px;
 /* ress2 */
 
 position: absolute;
-width: 1132px;
-height: 143px;
-left: 149px;
-top: 0px;
-
-
-
-/* topMiddleWindow */
-
-position: absolute;
-width: 1132px;
-height: 143px;
-left: 149px;
-top: 0px;
+width: 170px;
+height: 75px;
+left: 536px;
+top: 12px;
 
 
 
@@ -220,7 +210,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* ressStockBock */
+/* ressStockBox */
 
 position: absolute;
 width: 170px;
@@ -291,7 +281,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* ressStockBock */
+/* ressStockBox */
 
 position: absolute;
 width: 170px;
@@ -362,7 +352,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* ressStockBock */
+/* ressStockBox */
 
 position: absolute;
 width: 170px;
@@ -433,7 +423,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* ressStockBock */
+/* ressStockBox */
 
 position: absolute;
 width: 170px;
@@ -464,7 +454,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* queueBuildResearch */
+/* queue-boxen */
 
 position: absolute;
 width: 324px;
@@ -474,7 +464,7 @@ top: 94px;
 
 
 
-/* Rectangle 4 */
+/* forschung-queue-box */
 
 position: absolute;
 width: 324px;
@@ -486,7 +476,7 @@ background: rgba(217, 217, 217, 0.25);
 border-radius: 0px 0px 30px 30px;
 
 
-/* Rectangle 3 */
+/* building-queue-box */
 
 position: absolute;
 width: 324px;
@@ -616,25 +606,25 @@ color: rgba(0, 0, 0, 0.85);
 /* topLeftCorner */
 
 position: absolute;
-width: 313px;
+width: 315px;
 height: 140px;
-left: 0px;
-top: 0px;
+left: 1px;
+top: 1px;
 
 
 
-/* topLeftWindow */
+/* topLeftWindow-box */
 
 position: absolute;
-width: 313px;
+width: 315px;
 height: 140px;
-left: 0px;
-top: 0px;
+left: 1px;
+top: 1px;
 
 border: 3px solid rgba(0, 0, 0, 0.85);
 
 
-/* logoutButton */
+/* button-class-ellipse-frame */
 
 position: absolute;
 width: 68px;
@@ -644,40 +634,70 @@ top: 20px;
 
 
 
-/* Ellipse 3 */
+/* button-class-ellipse */
 
 position: absolute;
 width: 68px;
 height: 68px;
-left: 32px;
-top: 20px;
+left: 0px;
+top: 0px;
+
+
+
+/* outer-circle-logout */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: 0px;
+top: 0px;
 
 background: rgba(98, 98, 98, 0.15);
 border: 3px solid rgba(0, 0, 0, 0.85);
 
 
-/* Ellipse 1 */
+/* inner-circle-logout */
 
 position: absolute;
 width: 54px;
 height: 54px;
-left: 39px;
-top: 27px;
+left: 7px;
+top: 7px;
 
 background: rgba(187, 42, 42, 0.35);
 border: 3px solid rgba(0, 0, 0, 0.85);
 
 
-/* Ellipse 2 */
+/* Ellipse-logout */
 
 position: absolute;
 width: 22px;
-height: 47px;
-left: 55px;
-top: 54px;
+height: 46px;
+left: 57px;
+top: 23px;
 
-background: rgba(98, 98, 98, 0.15);
+background: rgba(0, 0, 0, 0.85);
 border: 3px solid rgba(0, 0, 0, 0.85);
+transform: rotate(90deg);
+
+
+/* Logout */
+
+position: absolute;
+width: 36px;
+height: 16px;
+left: 15px;
+top: 26px;
+
+font-family: 'Impact';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+color: rgba(255, 255, 255, 0.85);
+
 
 
 /* discordButton */
@@ -690,7 +710,7 @@ top: 54px;
 
 
 
-/* Ellipse 4 */
+/* button-class-ellipse */
 
 position: absolute;
 width: 65px;
@@ -731,7 +751,7 @@ background: #FFFFFF;
 border: 3px solid rgba(0, 0, 0, 0.85);
 
 
-/* Rectangle 1 */
+/* mainBody-background */
 
 position: absolute;
 left: 0%;
@@ -741,7 +761,7 @@ bottom: 0%;
 
 
 
-/* menu */
+/* menu-box */
 
 position: absolute;
 width: 314px;
@@ -751,7 +771,7 @@ top: 218px;
 
 
 
-/* menuBox */
+/* menuBox-background */
 
 position: absolute;
 width: 314px;
@@ -761,7 +781,7 @@ top: 218px;
 
 
 
-/* menuBox1 */
+/* bauhof-box */
 
 position: absolute;
 width: 237px;
@@ -771,7 +791,7 @@ top: 235px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -801,7 +821,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* handel-box */
 
 position: absolute;
 width: 237px;
@@ -811,7 +831,7 @@ top: 466px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -841,7 +861,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* allianz-box */
 
 position: absolute;
 width: 237px;
@@ -851,7 +871,7 @@ top: 680px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -881,7 +901,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* werft-box */
 
 position: absolute;
 width: 237px;
@@ -891,7 +911,7 @@ top: 275px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -921,7 +941,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* karte-box */
 
 position: absolute;
 width: 237px;
@@ -931,7 +951,7 @@ top: 506px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -961,7 +981,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* account-box */
 
 position: absolute;
 width: 237px;
@@ -971,7 +991,7 @@ top: 777px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -1001,7 +1021,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* labor-box */
 
 position: absolute;
 width: 237px;
@@ -1011,7 +1031,7 @@ top: 315px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -1041,7 +1061,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* flotte-box */
 
 position: absolute;
 width: 237px;
@@ -1051,7 +1071,7 @@ top: 546px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -1081,7 +1101,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* nachrichten-box */
 
 position: absolute;
 width: 237px;
@@ -1091,7 +1111,7 @@ top: 817px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -1121,7 +1141,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* verteidigung-box */
 
 position: absolute;
 width: 237px;
@@ -1131,7 +1151,7 @@ top: 355px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -1161,7 +1181,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* ubersicht-box */
 
 position: absolute;
 width: 237px;
@@ -1171,7 +1191,7 @@ top: 586px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
@@ -1201,7 +1221,7 @@ color: rgba(0, 0, 0, 0.85);
 
 
 
-/* menuBox1 */
+/* support-box */
 
 position: absolute;
 width: 237px;
@@ -1211,7 +1231,7 @@ top: 857px;
 
 
 
-/* Rectangle 5 */
+/* Rectangle-klasse menu-boxen */
 
 position: absolute;
 width: 237px;
