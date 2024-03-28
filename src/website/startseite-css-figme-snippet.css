@@ -1,53 +1,40 @@
-Hier ist der CSS-Code,
-bereit zum Kopieren und Einfügen: ```css
-}
-
-.Konzept Browserseite {
-    body {
-        position: relative;
-        width: 1440px;
-        height: 1024px;
-        background: #FFFFFF;
-    }
-
+.body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
 }
 
 .chatBox {
-    .chatBox {
-        position: absolute;
-        width: 317px;
-        height: 742px;
-        left: 1123px;
-        top: 143px;
-    }
+    position: absolute;
+    width: 317px;
+    height: 742px;
+    left: 1123px;
+    top: 143px;
 
 }
 
 .cahtbox-background {
-    .cahtbox-background {
-        position: absolute;
-        left: 77.99%;
-        right: 0%;
-        top: 13.96%;
-        bottom: 13.57%;
-    }
+    position: absolute;
+    left: 77.99%;
+    right: 0%;
+    top: 13.96%;
+    bottom: 13.57%;
 
 }
 
 .chat {
-    .chat {
-        position: absolute;
-        width: 305px;
-        height: 737px;
-        left: 1130px;
-        top: 148px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 15px;
-        color: rgba(0, 0, 0, 0.85);
-    }
+    position: absolute;
+    width: 305px;
+    height: 737px;
+    left: 1130px;
+    top: 148px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.85);
 
 }
 
@@ -63,308 +50,278 @@ bereit zum Kopieren und Einfügen: ```css
 }
 
 .topRightWindow {
-    .topRightWindow {
-        position: absolute;
-        width: 317px;
-        height: 142px;
-        left: 1440.25px;
-        top: -0.25px;
-        border: 3px solid rgba(0, 0, 0, 0.85);
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
-
+    position: absolute;
+    width: 317px;
+    height: 142px;
+    left: 1440.25px;
+    top: -0.25px;
+    border: 3px solid rgba(0, 0, 0, 0.85);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .supportButton {
-    .supportButton {
-        position: absolute;
-        width: 65px;
-        height: 65px;
-        left: 1230px;
-        top: 57px;
-    }
-
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 1230px;
+    top: 57px;
 }
 
+
 .support-ellipse {
-    .support-ellipse {
-        box-sizing: border-box;
-        position: absolute;
-        width: 65px;
-        height: 65px;
-        left: 1230px;
-        top: 57px;
-        background: rgba(217, 217, 217, 0.25);
-        border: 3px solid rgba(0, 0, 0, 0.85);
-    }
+    box-sizing: border-box;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 1230px;
+    top: 57px;
+    background: rgba(217, 217, 217, 0.25);
+    border: 3px solid rgba(0, 0, 0, 0.85);
+
 
 }
 
 .Support {
-    .Support {
-        position: absolute;
-        width: 50px;
-        height: 18px;
-        left: 1237px;
-        top: 81px;
-        font-family: 'Impact';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 18px;
-        border: 3px solid rgba(0, 0, 0, 0.85);
-    }
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    left: 1237px;
+    top: 81px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    border: 3px solid rgba(0, 0, 0, 0.85);
+
 
 }
 
 .messageButton {
-    .messageButton {
-        position: absolute;
-        width: 65px;
-        height: 65px;
-        left: 1332px;
-        top: 14px;
-    }
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 1332px;
+    top: 14px;
+
 
 }
 
 .message-ellispe {
-    .message-ellispe {
-        box-sizing: border-box;
-        position: absolute;
-        width: 65px;
-        height: 65px;
-        left: 1332px;
-        top: 14px;
-        background: rgba(217, 217, 217, 0.25);
-        border: 3px solid rgba(0, 0, 0, 0.85);
-    }
+    box-sizing: border-box;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 1332px;
+    top: 14px;
+    background: rgba(217, 217, 217, 0.25);
+    border: 3px solid rgba(0, 0, 0, 0.85);
+
 
 }
 
 .N {
-    .N {
-        position: absolute;
-        width: 28px;
-        height: 61px;
-        left: 1350px;
-        top: 16px;
-        font-family: 'Impact';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 61px;
-        border: 3px solid rgba(0, 0, 0, 0.85);
-    }
+    position: absolute;
+    width: 28px;
+    height: 61px;
+    left: 1350px;
+    top: 16px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    border: 3px solid rgba(0, 0, 0, 0.85);
+
 
 }
 
 .topMiddleWindow-box {
-    .topMiddleWindow-box {
-        position: absolute;
-        width: 1132px;
-        height: 143px;
-        left: 149px;
-        top: 0px;
-    }
+    position: absolute;
+    width: 1132px;
+    height: 143px;
+    left: 149px;
+    top: 0px;
+
 
 }
 
 .topMiddleWindow-background {
-    .topMiddleWindow-background {
-        position: absolute;
-        width: 1132px;
-        height: 143px;
-        left: 149px;
-        top: 0px;
-    }
+    position: absolute;
+    width: 1132px;
+    height: 143px;
+    left: 149px;
+    top: 0px;
+
 
 }
 
 .ress2 {
-    .ress2 {
-        position: absolute;
-        width: 170px;
-        height: 75px;
-        left: 536px;
-        top: 12px;
-    }
+    position: absolute;
+    width: 170px;
+    height: 75px;
+    left: 536px;
+    top: 12px;
+
 
 }
 
 .ressNameBox {
-    .ressNameBox {
-        position: absolute;
-        width: 170px;
-        height: 37.5px;
-        left: 536px;
-        top: 12px;
-        background: rgba(217, 217, 217, 0.25);
-        border-radius: 35px 35px 0px 0px;
-    }
+    position: absolute;
+    width: 170px;
+    height: 37.5px;
+    left: 536px;
+    top: 12px;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 35px 35px 0px 0px;
 
 }
 
 .ressName {
-    .ressName {
-        position: absolute;
-        width: 40px;
-        height: 20px;
-        left: 601px;
-        top: 19px;
-        font-family: 'Impact';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        color: rgba(0, 0, 0, 0.85);
-    }
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 601px;
+    top: 19px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.85);
 
 }
 
 .ressStockBox {
-    .ressStockBox {
-        position: absolute;
-        width: 170px;
-        height: 37.5px;
-        left: 536px;
-        top: 87px;
-        background: rgba(217, 217, 217, 0.25);
-        border-radius: 35px 35px 0px 0px;
-        transform: matrix(1, 0, 0, -1, 0, 0);
-    }
+    position: absolute;
+    width: 170px;
+    height: 37.5px;
+    left: 536px;
+    top: 87px;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 35px 35px 0px 0px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
 
 }
 
 .ressStock {
-    .ressStock {
-        position: absolute;
-        width: 76px;
-        height: 20px;
-        left: 583px;
-        top: 53px;
-        font-family: 'Impact';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        color: rgba(0, 0, 0, 0.85);
-    }
-
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    left: 583px;
+    top: 53px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.85);
 }
+
+
 
 .ress3 {
-    .ress3 {
-        position: absolute;
-        width: 170px;
-        height: 75px;
-        left: 725px;
-        top: 12px;
-    }
+
+    position: absolute;
+    width: 170px;
+    height: 75px;
+    left: 725px;
+    top: 12px;
+
 
 }
 
 .ressNameBox {
-    .ressNameBox {
-        position: absolute;
-        width: 170px;
-        height: 37.5px;
-        left: 725px;
-        top: 12px;
-        background: rgba(217, 217, 217, 0.25);
-        border-radius: 35px 35px 0px 0px;
-    }
+
+    position: absolute;
+    width: 170px;
+    height: 37.5px;
+    left: 725px;
+    top: 12px;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 35px 35px 0px 0px;
+
 
 }
 
 .ressName {
-    .ressName {
-        position: absolute;
-        width: 99px;
-        height: 20px;
-        left: 760px;
-        top: 19px;
-        font-family: 'Impact';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        color: rgba(0, 0, 0, 0.85);
-    }
+
+    position: absolute;
+    width: 99px;
+    height: 20px;
+    left: 760px;
+    top: 19px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.85);
+
 
 }
 
 .ressStockBox {
-    .ressStockBox {
-        position: absolute;
-        width: 170px;
-        height: 37.5px;
-        left: 725px;
-        top: 87px;
-        background: rgba(217, 217, 217, 0.25);
-        border-radius: 35px 35px 0px 0px;
-        transform: matrix(1, 0, 0, -1, 0, 0);
-    }
-
+    position: absolute;
+    width: 170px;
+    height: 37.5px;
+    left: 725px;
+    top: 87px;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 35px 35px 0px 0px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-.ressStock {
-    .ressStock {
-        position: absolute;
-        width: 75px;
-        height: 20px;
-        left: 772px;
-        top: 53px;
-        font-family: 'Impact';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        color: rgba(0, 0, 0, 0.85);
-    }
 
+.ressStock {
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    left: 772px;
+    top: 53px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.85);
 }
 
 .ress4 {
-    .ress4 {
-        position: absolute;
-        width: 170px;
-        height: 75px;
-        left: 914px;
-        top: 12px;
-    }
-
+    position: absolute;
+    width: 170px;
+    height: 75px;
+    left: 914px;
+    top: 12px;
 }
+
 
 .ressNameBox {
-    .ressNameBox {
-        position: absolute;
-        width: 170px;
-        height: 37.5px;
-        left: 914px;
-        top: 12px;
-        background: rgba(217, 217, 217, 0.25);
-        border-radius: 35px 35px 0px 0px;
-    }
-
+    position: absolute;
+    width: 170px;
+    height: 37.5px;
+    left: 914px;
+    top: 12px;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 35px 35px 0px 0px;
 }
+
 
 .ressName {
-    .ressName {
-        position: absolute;
-        width: 83px;
-        height: 20px;
-        left: 957px;
-        top: 19px;
-        font-family: 'Impact';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        color: rgba(0, 0, 0, 0.85);
-    }
-
+    position: absolute;
+    width: 83px;
+    height: 20px;
+    left: 957px;
+    top: 19px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.85);
 }
+
 
 .ressStock {
 
