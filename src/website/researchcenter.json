@@ -1,0 +1,37 @@
+{
+    "level 1": {
+        "construction time": "5h",
+        "space drive": "kerosene drive",
+        "weapon technology": "bombs",
+        "espionage technology": "probe technology",
+        "armor": "aluminum technology",
+        "mine": "aluminum"
+    },
+    "level 5": {
+        "construction time": "7.5h",
+        "space drive": "rocket drive",
+        "weapon technology": "sonic weapons",
+        "armor": "carbon fiber technology",
+        "mine": "coal"
+    },
+    "level 10": {
+        "construction time": "10h",
+        "space drive": "electric drive",
+        "weapon technology": "laser weapons",
+        "armor": "titanium armor",
+        "mine": "titanium",
+        "espionage technology": "stealth technology"
+    },
+    "level 15": {
+        "construction time": "12.5h",
+        "space drive": "shield explosion",
+        "weapon technology": "shield weapon",
+        "armor": "shield explosion"
+    },
+    "level 20": {
+        "construction time": "15h",
+        "space drive": "wormhole technology",
+        "weapon technology": "gravity technology",
+        "armor": "mythium"
+    }
+}
