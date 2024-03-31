@@ -1,0 +1,333 @@
+[
+    {
+        "name": "Möwe",
+        "class": "Dune",
+        "level": {
+            "maxLevel": 15,
+            "currentLevel": 1
+        },
+        "spd": {
+            "spdBase": 50,
+            "spdTech": 5
+        },
+        "hp": {
+            "hpBase": 100,
+            "hpTech": 7
+        },
+        "atk": {
+            "atkBase": 0,
+            "atkTech": 6
+        },
+        "buildTime": {
+            "base": 50,
+            "lvlMult": 67,
+            "lvlAdd": 2
+        },
+        "buildCost": {
+            "iron": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "coal": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "deuterium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "tritium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "palladium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "darkmatter": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            }
+        }
+    },
+    {
+        "name": "Albatros",
+        "class": "Grosser Frachter",
+        "maxLevel": 15,
+        "spd": {
+            "spdBase": 50,
+            "spdTech": 5
+        },
+        "hp": {
+            "hpBase": 100,
+            "hpTech": 7
+        },
+        "atk": {
+            "atkBase": 0,
+            "atkTech": 6
+        },
+        "buildTime": {
+            "base": 50,
+            "lvlMult": 67,
+            "lvlAdd": 2
+        },
+        "buildCost": {
+            "iron": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "uran": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "deuterium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "tritium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "palladium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "darkmatter": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            }
+        }
+    },
+    {
+        "name": "Delphin",
+        "class": "bewaffneter Frachter",
+        "maxLevel": 15,
+        "spd": {
+            "spdBase": 50,
+            "spdTech": 5
+        },
+        "hp": {
+            "hpBase": 100,
+            "hpTech": 7
+        },
+        "atk": {
+            "atkBase": 0,
+            "atkTech": 6
+        },
+        "buildTime": {
+            "base": 50,
+            "lvlMult": 67,
+            "lvlAdd": 2
+        },
+        "buildCost": {
+            "iron": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "uran": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "deuterium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "tritium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "palladium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "darkmatter": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            }
+        }
+    },
+    {
+        "name": "Barrakuda",
+        "class": "Kleines Kriegsschiff",
+        "maxLevel": 15,
+        "spd": {
+            "spdBase": 50,
+            "spdTech": 5
+        },
+        "hp": {
+            "hp": 100,
+            "hpTech": 7
+        },
+        "def": {
+            "def": 0,
+            "defTech": 7
+        },
+        "atk": {
+            "atk": 10,
+            "atkTech": 6
+        },
+        "buildTime": {
+            "base": 50,
+            "lvlMult": 67,
+            "lvlAdd": 2
+        },
+        "buildCost": {
+            "iron": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "uran": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "deuterium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "tritium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "palladium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "darkmatter": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            }
+        }
+    },
+    {
+        "name": "Orca",
+        "class": "Grosses Kriegsschiff",
+        "maxLevel": 15,
+        "spd": {
+            "spdBase": 50,
+            "spdTech": 5
+        },
+        "hp": {
+            "hpBase": 100,
+            "hpTech": 7
+        },
+        "atk": {
+            "atkBase": 0,
+            "atkTech": 6
+        },
+        "buildTime": {
+            "base": 50,
+            "lvlMult": 67,
+            "lvlAdd": 2
+        },
+        "buildCost": {
+            "iron": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "uran": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "deuterium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "tritium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "palladium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "darkmatter": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            }
+        }
+    },
+    {
+        "name": "Oktopus",
+        "class": "Kolonialisierungsschiff",
+        "maxLevel": 15,
+        "spd": {
+            "spdBase": 50,
+            "spdTech": 5
+        },
+        "hp": {
+            "hpBase": 100,
+            "hpTech": 7
+        },
+        "atk": {
+            "atkBase": 0,
+            "atkTech": 6
+        },
+        "buildTime": {
+            "base": 50,
+            "lvlMult": 67,
+            "lvlAdd": 2
+        },
+        "buildCost": {
+            "iron": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "uran": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "deuterium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "tritium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "palladium": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            },
+            "darkmatter": {
+                "base": 50,
+                "lvlMult": 2.4,
+                "lvlAdd": 100
+            }
+        }
+    }
+]
