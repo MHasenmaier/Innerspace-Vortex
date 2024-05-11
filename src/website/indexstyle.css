@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 25vh 75vh;
+    height: 100vh;
+    margin: 0;
+}
+#topRight {
+    grid-column: 1 / span 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#topMiddle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#left, #right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}

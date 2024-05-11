@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="indexstyle.css" type="text/css">
+    </head>
+    <body>
+        <div id="topRight">
+            <button id="buttonNewRound">Neue Runde</button>
+            <div id="topMiddle">
+                <h2>
+                    Eisen:
+                    <span id="ressPlayerIron">100</span>
+                </h2>
+                <h2>
+                    Kohle:
+                    <span id="ressPlayerCoal">100</span>
+                </h2>
+                <h2>
+                    Aluminium:
+                    <span id="ressPlayerAlu">000</span>
+                </h2>
+                <h2>
+                    Titan:
+                    <span id="ressPlayerTitan">000</span>
+                </h2>
+            </div>
+            <div id="topLeft">
+                <h1>
+                    Runde
+                </h1>
+                <p id="roundCounter">1</p>
+            </div>
+        </div>
+        <div id="left">
+            <button id="buttonBuildingsMenu">Gebäude</button>
+        </div>
+        <div id="center">
+            <div>
+                <button id="buttonBuyIronMine">Eisenmine bauen</button>
+                <p>
+                    Eisenmine hat Stufe:
+                    <span id="ironMineLvl">1</span>
+                </p>
+                <p>
+                    Eisenmine Stufe
+                    <span id="ironMineLvlUP">2</span>
+                    kostet
+                    <br>
+                    Eisen:
+                    <span id="ironMineLvlUPIronCost">50</span>
+                    <br>
+                    Kohle:
+                    <span id="ironMineLvlUPCoalCost">50</span>
+                </p>
+            </div>
+            <div>
+                <button id="buttonBuyCoalMine">Kohlemine bauen</button>
+                <p>
+                    Kohlemine hat Stufe:
+                    <span id="coalMineLvl">1</span>
+                </p>
+                <p>
+                    Kohlemine Stufe
+                    <span id="coalMineLvlUP">2</span>
+                    kostet
+                    <br>
+                    Eisen:
+                    <span id="coalMineLvlUPIronCost">50</span>
+                    <br>
+                    Kohle:
+                    <span id="coalMineLvlUPCoalCost">50</span>
+                </p>
+            </div>
+            <div>
+                <button id="buttonBuyAluMine">Aluminiummine bauen</button>
+                <p>
+                    Aluminiummine hat Stufe:
+                    <span id="aluMineLvl">0</span>
+                </p>
+                <p>
+                    Aluminiummine Stufe
+                    <span id="aluMineLvlUP">1</span>
+                    kostet
+                    <br>
+                    Eisen:
+                    <span id="aluMineLvlUPIronCost">50</span>
+                    <br>
+                    Kohle:
+                    <span id="aluMineLvlUPCoalCost">50</span>
+                </p>
+            </div>
+            <div>
+                <button id="buttonBuyTitanMine">Titanmine bauen</button>
+                <p>
+                    Titanmine hat Stufe:
+                    <span id="titanMineLvl">0</span>
+                </p>
+                <p>
+                    Titanmine Stufe
+                    <span id="titanMineLvlUP">1</span>
+                    kostet
+                    <br>
+                    Eisen:
+                    <span id="titanMineLvlUPIronCost">50</span>
+                    <br>
+                    Kohle:
+                    <span id="titanMineLvlUPCoalCost">50</span>
+                </p>
+            </div>
+            <div>
+                <button id="buttonBuyHQ">Hauptquartier bauen</button>
+                <p>
+                    Hauptquartier hat Stufe:
+                    <span id="hqLvl">1</span>
+                </p>
+                <p>
+                    Hauptquartier Stufe
+                    <span id="hqLvlUP">2</span>
+                    kostet
+                    <span id="hqLvlUPCost">100</span>
+                    Eisen
+                </p>
+            </div>
+        </div>
+        <div id="right">
+            <div>
+                <h1>
+                    Protokoll
+                </h1>
+                <p id="output"></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="../backend/indexscript.js"></script>
+    </body>
+</html>
