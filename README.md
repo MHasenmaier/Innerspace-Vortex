@@ -4,7 +4,7 @@
 
 ## Worum es geht
 
-Innerspace Vortex (IV) ist ein old-school Broswergame im Genre "Weltraum".  
+Innerspace Vortex (IV) ist ein old-school Browsergame im Genre "Weltraum".  
 
 
 # TODO 
