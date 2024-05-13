@@ -1,5 +1,5 @@
 /**
- * commented for debbuging reasons
+ * commented for debugging reasons
  * 
 import fs from 'fs';
 import path from 'path';
@@ -26,7 +26,7 @@ const shipsDataJSON = loadJsonFile(shipsJSON);
 const playerDataJSON = loadJsonFile(playerJSON);
 */
 
-// Zugriff auf das 4. Element (Index 3) in den Schiffdaten
+// Zugriff auf das 4. Element (Index 3) in den Schiffsdaten
 /*
 if (shipsDataJSON) {
     const ship = shipsDataJSON[3];
