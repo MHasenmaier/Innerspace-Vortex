@@ -1,4 +1,6 @@
 import Fastify from "fastify";
+import { player, player } from "./player.mjs";
+
 
 /*
 import { exportAllCustomer, readCustomer, deleteCustomer } from "./customer.js";
@@ -33,3 +35,7 @@ try {
     fastify.log.error(err);
     process.exit(1);
   }
+
+
+
+  const playerOne = new Player();
