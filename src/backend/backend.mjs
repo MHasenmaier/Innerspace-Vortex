@@ -1,5 +1,5 @@
 import Fastify from "fastify";
-import { player, player } from "./player.mjs";
+import { Player } from "./player.mjs";
 
 
 /*
@@ -10,7 +10,7 @@ import { createCustomer } from "./customer.js";
 
 // initialize the server
 const fastify = Fastify({
-  logger: true,
+    logger: true,
 });
 
 /*
@@ -26,16 +26,18 @@ fastify.post('/createCustomer', async function handler (request, reply) {
 })
 */
 
-
-
-
 try {
     await fastify.listen({port: 3000});
-  } catch (err) {
+} catch (err) {
     fastify.log.error(err);
     process.exit(1);
-  }
+}
+
+fastify.get('/', async (request, reply) => {
+    return { message: 'Hello, World!' };
+});
 
 
+const playerOne = new Player;
 
-  const playerOne = new Player();
+console.log(playerOne);

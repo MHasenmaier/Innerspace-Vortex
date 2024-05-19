@@ -1,13 +1,14 @@
+
 const ressPlayerIron = document.getElementById("ressPlayerIron");
 const ressPlayerCoal = document.getElementById("ressPlayerCoal");
 const ressPlayerAlu = document.getElementById("ressPlayerAlu");
 const ressPlayerTitan = document.getElementById("ressPlayerTitan");
 
-const Player = {
+const player = {
     "iron": 100,
-    "coal": 100,
-    "alu": 100,
-    "titan": 100
+    "coal": 0,
+    "alu": 0,
+    "titan": 0
 }
 
 function playerUpdate() {
@@ -18,5 +19,5 @@ function playerUpdate() {
 }
 
 
-export {Player};
+export {player};
 export {playerUpdate};

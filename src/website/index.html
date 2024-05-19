@@ -16,15 +16,15 @@
                 </h2>
                 <h2>
                     Kohle:
-                    <span id="ressPlayerCoal">100</span>
+                    <span id="ressPlayerCoal">0</span>
                 </h2>
                 <h2>
                     Aluminium:
-                    <span id="ressPlayerAlu">000</span>
+                    <span id="ressPlayerAlu">0</span>
                 </h2>
                 <h2>
                     Titan:
-                    <span id="ressPlayerTitan">000</span>
+                    <span id="ressPlayerTitan">0</span>
                 </h2>
             </div>
             <div id="topLeft">
@@ -35,7 +35,7 @@
             </div>
         </div>
         <div id="left">
-            <button id="buttonBuildingsMenu">Gebäude</button>
+            <button id="buttonBuildingsMenu">Hauptquartier</button>
         </div>
         <div id="center">
             <div>
@@ -53,25 +53,37 @@
                     <span id="ironMineLvlUPIronCost">50</span>
                     <br>
                     Kohle:
-                    <span id="ironMineLvlUPCoalCost">50</span>
+                    <span id="ironMineLvlUPCoalCost">0</span>
+                    <br>
+                    Alu:
+                    <span id="ironMineLvlUPAluCost">0</span>
+                    <br>
+                    Titan:
+                    <span id="ironMineLvlUPTitanCost">0</span>
                 </p>
             </div>
             <div>
                 <button id="buttonBuyCoalMine">Kohlemine bauen</button>
                 <p>
                     Kohlemine hat Stufe:
-                    <span id="coalMineLvl">1</span>
+                    <span id="coalMineLvl">0</span>
                 </p>
                 <p>
                     Kohlemine Stufe
-                    <span id="coalMineLvlUP">2</span>
+                    <span id="coalMineLvlUP"></span>
                     kostet
                     <br>
                     Eisen:
                     <span id="coalMineLvlUPIronCost">50</span>
                     <br>
                     Kohle:
-                    <span id="coalMineLvlUPCoalCost">50</span>
+                    <span id="coalMineLvlUPCoalCost">0</span>
+                    <br>
+                    Alu:
+                    <span id="coalMineLvlUPAluCost">0</span>
+                    <br>
+                    Titan:
+                    <span id="coalMineLvlUPTitanCost">0</span>
                 </p>
             </div>
             <div>
@@ -90,6 +102,12 @@
                     <br>
                     Kohle:
                     <span id="aluMineLvlUPCoalCost">50</span>
+                    <br>
+                    Alu:
+                    <span id="aluMineLvlUPAluCost">0</span>
+                    <br>
+                    Titan:
+                    <span id="aluMineLvlUPTitanCost">0</span>
                 </p>
             </div>
             <div>
@@ -108,6 +126,12 @@
                     <br>
                     Kohle:
                     <span id="titanMineLvlUPCoalCost">50</span>
+                    <br>
+                    Alu:
+                    <span id="titanMineLvlUPAluCost">50</span>
+                    <br>
+                    Titan:
+                    <span id="titanMineLvlUPTitanCost">0</span>
                 </p>
             </div>
             <div>
@@ -120,8 +144,18 @@
                     Hauptquartier Stufe
                     <span id="hqLvlUP">2</span>
                     kostet
-                    <span id="hqLvlUPCost">100</span>
+                    <br>
                     Eisen
+                    <span id="hqLvlUPIronCost">100</span>
+                    <br>
+                    Kohle:
+                    <span id="hqLvlUPCoalCost">0</span>
+                    <br>
+                    Alu:
+                    <span id="hqLvlUPAluCost">0</span>
+                    <br>
+                    Titan:
+                    <span id="hqLvlUPTitanCost">0</span>
                 </p>
             </div>
         </div>
@@ -133,6 +167,6 @@
                 <p id="output"></p>
             </div>
         </div>
-        <script type="text/javascript" src="../backend/buildings.mjs" type="module"></script>
+        <script type="module" src="../backend/buildings.mjs"></script>
     </body>
 </html>
