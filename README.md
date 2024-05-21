@@ -6,5 +6,7 @@
 
 Innerspace Vortex (IV) ist ein old-school Browsergame im Genre "Weltraum".  
 
+Download:
+[Erste Schritte](https://github.com/MHasenmaier/Innerspace-Vortex/blob/main/Innerspace-Vortex-v20240521.zip)
 
 # TODO 
