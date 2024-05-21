@@ -46,9 +46,7 @@ const showTitanMineLvlUPAluCost = document.getElementById("titanMineLvlUPAluCost
 const showTitanMineLvlUPTitanCost = document.getElementById("titanMineLvlUPTitanCost");
 
 const showClock = document.getElementById("clock");
-let printClockNow = showClock.innerHTML;
 const roundCounter = document.getElementById("roundCounter");
-let autoRound = setInterval(newRound, msPerRound);
 
 let roundNr = roundCounter.innerHTML;
 
@@ -133,6 +131,7 @@ let titanMine = {
     "prodMult": 5
 }
 
+setInterval(newRound, msPerRound);
 
 function preZeroClock (number) {
 
