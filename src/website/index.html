@@ -7,8 +7,11 @@
         <link rel="stylesheet" href="indexstyle.css" type="text/css">
     </head>
     <body>
-        <div id="topRight">
-            <button id="buttonNewRound">Neue Runde</button>
+        <header>
+            <div id="topRight">
+                <h2 id="clock">00:00:00</h2>
+            </div>
+
             <div id="topMiddle">
                 <h2>
                     Eisen:
@@ -33,9 +36,10 @@
                 </h1>
                 <p id="roundCounter">1</p>
             </div>
-        </div>
+        </header>
         <div id="left">
-            <button id="buttonBuildingsMenu">Hauptquartier</button>
+           <a href="index.html"><button id="buttonBuildingsMenuHQ">Hauptquartier</button></a>
+           <a href="reasearch.html"><button id="buttonBuildingsMenuResearch">Forschungszentrum</button></a>
         </div>
         <div id="center">
             <div>
@@ -70,7 +74,7 @@
                 </p>
                 <p>
                     Kohlemine Stufe
-                    <span id="coalMineLvlUP"></span>
+                    <span id="coalMineLvlUP">1</span>
                     kostet
                     <br>
                     Eisen:
@@ -167,6 +171,6 @@
                 <p id="output"></p>
             </div>
         </div>
-        <script type="module" src="../backend/buildings.mjs"></script>
+        <script type="module" src="../backend/buildings.mjs" defer></script>
     </body>
 </html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Forschung</title>
+    <link rel="stylesheet" href="indexstyle.css" type="text/css">
+</head>
+
+<body>
+<header>
+    <div id="topRight">
+        <h2 id="clock">00:00:00</h2>
+    </div>
+    <div id="topMiddle">
+        <h2>
+            Eisen:
+            <span id="ressPlayerIron">100</span>
+        </h2>
+        <h2>
+            Kohle:
+            <span id="ressPlayerCoal">0</span>
+        </h2>
+        <h2>
+            Aluminium:
+            <span id="ressPlayerAlu">0</span>
+        </h2>
+        <h2>
+            Titan:
+            <span id="ressPlayerTitan">0</span>
+        </h2>
+    </div>
+    <div id="topLeft">
+        <h1>
+            Runde
+        </h1>
+        <p id="roundCounter">1</p>
+    </div>
+</header>
+<div id="left">
+    <a href="index.html"><button id="buttonBuildingsMenuHQ">Hauptquartier</button></a>
+    <a href="reasearch.html"><button id="buttonBuildingsMenuResearch">Forschungszentrum</button></a>
+</div>
+<div id="center">
+
+    <div>
+        <button id="buttonResearchIronMine">Eisenmine forschen</button>
+        <p>
+            Forschung "Eisenmine" hat Stufe:
+            <span id="ironMineResearchLvl">1</span>
+        </p>
+        <p>
+            Forschung "Eisenmine" Stufe
+            <span id="ironMineResearchLvlUP">2</span>
+            kostet
+            <br>
+            Eisen:
+            <span id="ironMineResearchLvlUPIronCost">50</span>
+            <br>
+            Kohle:
+            <span id="ironMineResearchLvlUPCoalCost">0</span>
+            <br>
+            Alu:
+            <span id="ironMineResearchLvlUPAluCost">0</span>
+            <br>
+            Titan:
+            <span id="ironMineResearchLvlUPTitanCost">0</span>
+        </p>
+    </div>
+
+    <div>
+        <button id="buttonResearchCoalMine">Kohlemine forschen</button>
+        <p>
+            Forschung "Kohlemine" hat Stufe:
+            <span id="coalMineResearchLvl">1</span>
+        </p>
+        <p>
+            Forschung "Kohlemine" Stufe
+            <span id="coalMineResearchLvlUP">2</span>
+            kostet
+            <br>
+            Eisen:
+            <span id="coalMineResearchLvlUPIronCost">50</span>
+            <br>
+            Kohle:
+            <span id="coalMineResearchLvlUPCoalCost">0</span>
+            <br>
+            Alu:
+            <span id="coalMineResearchLvlUPAluCost">0</span>
+            <br>
+            Titan:
+            <span id="coalMineResearchLvlUPTitanCost">0</span>
+        </p>
+    </div>
+
+    <div>
+        <button id="buttonResearchAluMine">Aluminiummine forschen</button>
+        <p>
+            Forschung "Aluminiummine" hat Stufe:
+            <span id="aluMineResearchLvl">1</span>
+        </p>
+        <p>
+            Forschung "Aluminiummine" Stufe
+            <span id="aluMineResearchLvlUP">2</span>
+            kostet
+            <br>
+            Eisen:
+            <span id="aluMineResearchLvlUPIronCost">50</span>
+            <br>
+            Kohle:
+            <span id="aluMineResearchLvlUPCoalCost">0</span>
+            <br>
+            Alu:
+            <span id="aluMineResearchLvlUPAluCost">0</span>
+            <br>
+            Titan:
+            <span id="aluMineResearchLvlUPTitanCost">0</span>
+        </p>
+    </div>
+
+    <div>
+        <button id="buttonResearchTitanMine">Titanmine forschen</button>
+        <p>
+            Forschung "Titanmine" hat Stufe:
+            <span id="titanMineResearchLvl">1</span>
+        </p>
+        <p>
+            Forschung "Titanmine" Stufe
+            <span id="titanMineResearchLvlUP">2</span>
+            kostet
+            <br>
+            Eisen:
+            <span id="titanMineResearchLvlUPIronCost">50</span>
+            <br>
+            Kohle:
+            <span id="titanMineResearchLvlUPCoalCost">0</span>
+            <br>
+            Alu:
+            <span id="titanMineResearchLvlUPAluCost">0</span>
+            <br>
+            Titan:
+            <span id="titanMineResearchLvlUPTitanCost">0</span>
+        </p>
+    </div>
+
+    <div>
+        <button id="buttonResearchHQ">Hauptquartier forschen</button>
+        <p>
+            Forschung "Hauptquartier" hat Stufe:
+            <span id="HQResearchLvl">1</span>
+        </p>
+        <p>
+            Forschung "Hauptquartier" Stufe
+            <span id="HQResearchLvlUP">2</span>
+            kostet
+            <br>
+            Eisen:
+            <span id="HQResearchLvlUPIronCost">50</span>
+            <br>
+            Kohle:
+            <span id="HQResearchLvlUPCoalCost">0</span>
+            <br>
+            Alu:
+            <span id="HQResearchLvlUPAluCost">0</span>
+            <br>
+            Titan:
+            <span id="HQResearchLvlUPTitanCost">0</span>
+        </p>
+    </div>
+
+</div>
+<div id="right">
+    <div>
+        <h1>
+            Protokoll
+        </h1>
+        <p id="output"></p>
+    </div>
+</div>
+<script type="module" src="../backend/buildings.mjs"></script>
+
+</body>
+</html>

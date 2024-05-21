@@ -1,6 +1,8 @@
 import { player } from "./player.mjs";
 import { playerUpdate } from "./player.mjs";
 
+const msPerRound = 1000;
+
 const output = document.getElementById("output");
 
 const buttonBuyHQ = document.getElementById("buttonBuyHQ");
@@ -29,7 +31,7 @@ const showCoalMineLvlUPTitanCost = document.getElementById("coalMineLvlUPTitanCo
 
 const buttonBuyAluMine = document.getElementById("buttonBuyAluMine");
 const showAluMineLvl = document.getElementById("aluMineLvl");
-const showAluMineLvlUp = document.getElementById("aluMineLvlUp");
+const showAluMineLvlUp = document.getElementById("aluMineLvlUP");
 const showAluMineLvlUPIronCost = document.getElementById("aluMineLvlUPIronCost");
 const showAluMineLvlUPCoalCost = document.getElementById("aluMineLvlUPCoalCost");
 const showAluMineLvlUPAluCost = document.getElementById("aluMineLvlUPAluCost");
@@ -37,16 +39,19 @@ const showAluMineLvlUPTitanCost = document.getElementById("aluMineLvlUPTitanCost
 
 const buttonBuyTitanMine = document.getElementById("buttonBuyTitanMine");
 const showTitanMineLvl = document.getElementById("titanMineLvl");
-const showTitanMineLvlUp = document.getElementById("titanMineLvlUp");
+const showTitanMineLvlUp = document.getElementById("titanMineLvlUP");
 const showTitanMineLvlUPIronCost = document.getElementById("titanMineLvlUPIronCost");
 const showTitanMineLvlUPCoalCost = document.getElementById("titanMineLvlUPCoalCost");
 const showTitanMineLvlUPAluCost = document.getElementById("titanMineLvlUPAluCost");
 const showTitanMineLvlUPTitanCost = document.getElementById("titanMineLvlUPTitanCost");
 
-const buttonNewRound = document.getElementById("buttonNewRound");
-
+const showClock = document.getElementById("clock");
+let printClockNow = showClock.innerHTML;
 const roundCounter = document.getElementById("roundCounter");
+let autoRound = setInterval(newRound, msPerRound);
+
 let roundNr = roundCounter.innerHTML;
+
 
 let headquarter = {
     "name": "Hauptquartier",
@@ -128,6 +133,23 @@ let titanMine = {
     "prodMult": 5
 }
 
+
+function preZeroClock (number) {
+
+    return ((number < 10) ? '0' : '' ) + number;
+}
+
+function refreshClock() {
+    let clockNow = new Date();
+    let hours = clockNow.getHours();
+    let minutes = clockNow.getMinutes();
+    let seconds = clockNow.getSeconds();
+    hours = preZeroClock(hours);
+    minutes = preZeroClock(minutes);
+    seconds = preZeroClock(seconds);
+
+    return hours + ":" + minutes + ":" + seconds;
+}
 
 function buildIronMine() {
     if (resourceCheck(ironMine)) {
@@ -211,7 +233,9 @@ function newRound() {
     player.titan += titanMine.produktion;
     roundCounter.innerHTML = roundNr++;
     output.innerHTML = "Neue Runde:<br> Jetzt Runde: " + roundNr;
+    showClock.innerHTML = refreshClock();
     playerUpdate();
+    refreshBuildings();
 }
 
 function updateCosts(input) {
@@ -317,10 +341,51 @@ function resourceCheck(buildingName) {
     return !(player.iron < buildingName.costIron) && !(player.coal < buildingName.costCoal) && !(player.alu < buildingName.costAlu) && !(player.titan < buildingName.costTitan);
 }
 
+function refreshBuildings() {
+
+    //Iron
+    showIronMineLvl.innerHTML = ironMine.stufe;
+    showIronMineLvlUp.innerHTML = ironMine.stufe + 1;
+    showIronMineLvlUpIronCost.innerHTML = ironMine.costIron;
+    showIronMineLvlUPCoalCost.innerHTML = ironMine.costCoal;
+    showIronMineLvlUPAluCost.innerHTML = ironMine.costAlu;
+    showIronMineLvlUPTitanCost.innerHTML = ironMine.costTitan;
+
+    //Coal
+    showCoalMineLvl.innerHTML = coalMine.stufe;
+    showCoalMineLvlUp.innerHTML = coalMine.stufe + 1;
+    showCoalMineLvlUpIronCost.innerHTML = coalMine.costIron;
+    showCoalMineLvlUPCoalCost.innerHTML = coalMine.costCoal;
+    showCoalMineLvlUPAluCost.innerHTML = coalMine.costAlu;
+    showCoalMineLvlUPTitanCost.innerHTML = coalMine.costTitan;
+
+    //Alu
+    showAluMineLvl.innerHTML = aluMine.stufe;
+    showAluMineLvlUp.innerHTML = aluMine.stufe + 1;
+    showAluMineLvlUPIronCost.innerHTML = aluMine.costIron;
+    showAluMineLvlUPCoalCost.innerHTML = aluMine.costCoal;
+    showAluMineLvlUPAluCost.innerHTML = aluMine.costAlu;
+    showAluMineLvlUPTitanCost.innerHTML = aluMine.costTitan;
+
+    //Titan
+    showTitanMineLvl.innerHTML = titanMine.stufe;
+    showTitanMineLvlUp.innerHTML = titanMine.stufe + 1;
+    showTitanMineLvlUPIronCost.innerHTML = titanMine.costIron;
+    showTitanMineLvlUPCoalCost.innerHTML = titanMine.costCoal;
+    showTitanMineLvlUPAluCost.innerHTML = titanMine.costAlu;
+    showTitanMineLvlUPTitanCost.innerHTML = titanMine.costTitan;
+
+    //HQ
+    showHQLvl.innerHTML = headquarter.stufe;
+    showHQLvlUP.innerHTML = headquarter.stufe + 1;
+    showHqLvlUPIronCost.innerHTML = headquarter.costIron;
+    showHqLvlUPCoalCost.innerHTML = headquarter.costCoal;
+    showHqLvlUPAluCost.innerHTML = headquarter.costAlu;
+    showHqLvlUPTitanCost.innerHTML = headquarter.costTitan;
+}
+
 buttonBuyIronMine.addEventListener("click", buildIronMine);
 buttonBuyCoalMine.addEventListener("click", buildCoalMine);
 buttonBuyAluMine.addEventListener("click", buildAluMine);
 buttonBuyTitanMine.addEventListener("click", buildTitanMine);
 buttonBuyHQ.addEventListener("click", buildHQ);
-
-buttonNewRound.addEventListener("click", newRound);
